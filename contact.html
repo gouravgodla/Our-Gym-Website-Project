@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Page</title>
+  <style>
+    body {
+      background-color: #7f7a7a;
+      color: #f0ecec;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 50px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 3px solid #ebecef;
+      border-radius: 2px;
+    }
+
+    .form-group textarea {
+      height: 120px;
+    }
+
+    .form-group button {
+      padding: 10px 20px;
+      background-color: #1aea70;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background-color: #16d26b;
+    }
+
+    footer .footer-rights {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form name="contact" method="POST" data-netlify="true">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Send Message</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <div class="footer-rights">
+        <br><br>
+      
+      © 2023 Your Gym. All rights reserved
+    
+    </div>
+  </footer>
+</body>
+
+</html>

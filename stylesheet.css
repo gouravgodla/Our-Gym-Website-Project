@@ -1,0 +1,211 @@
+
+    /* -----------------Reset some default styles------------------ */
+    body,
+    h1,
+    h2,
+    p,
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+    .colorbg{
+      background-color: #7f7a7a;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* -----------------------------Header styles------------------------ */
+    header {
+      background-color: #7f7a7a;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+      padding: 10px;
+
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 30px;
+    }
+
+    nav ul li a {
+      text-decoration:none;
+      color: #010101;
+      font-size: 22px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /* ----------------------------------------Hero section styles------------------------- */
+    .hero {
+      background-color: #ffffff;
+      padding: 150px;
+      text-align: center;
+      background-image: url('gympic.jpg');
+      background-repeat: no-repeat;
+      background-size:100% 100%;
+      
+
+    }
+
+    .hero h1 {
+      color: #f4f8fa;
+      font-size: 56px;
+      margin-bottom: 50px;
+    }
+
+    .hero p {
+      color: #f0f3f4;
+      font-size: 28px;
+      margin-bottom: 60px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #646262;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 4px;
+    }
+
+    /* ----------------------------Features section styles---------------------------- */
+    .features {
+      display: flex;
+      justify-content: center;
+      padding: 50px 0;
+    }
+
+    .feature {
+      width: 300px;
+      margin: 0 20px;
+    }
+
+    .feature h2 {
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+    .feature h3 {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    /* ----------------------------Footer styles--------------------------------------- */
+    footer {
+      background-color: #565454;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+/*-------------------------------start of gallery--------------------------------------*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6; 
+}
+
+.container {
+  width: 60%;
+  margin: 2rem auto; 
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 1.5rem; 
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 2;  */
+  /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  /** Alternative Syntax **/
+  /* grid-column: 3 / span 2;  */
+  /* grid-row: 1 / span 2; */
+}
+
+.gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4;
+  grid-row: 1 / span 5; */
+}
+
+.gallery__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 4;  */
+  /* grid-row: 3 / span 3; */
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 4; */
+  /* grid-row: 6 / span 3; */
+}
+
+.gallery__item--6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+
+  /** Alternative Syntax **/
+  /* grid-column: 5 / span 4; */
+  /* grid-row: 6 / span 3; */
+}
