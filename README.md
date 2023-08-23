@@ -1,4 +1,4 @@
-# My4Website
+# My-4-Website
 # Our Gym Webpage
 
 Welcome to the GitHub repository for "Our Gym" webpage!
