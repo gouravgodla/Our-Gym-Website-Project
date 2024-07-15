@@ -1,5 +1,5 @@
-# My-4-Website
-# Our Gym Webpage
+# Our-Gym-Website-Project
+
 
 Welcome to the GitHub repository for "Our Gym" webpage!
 
