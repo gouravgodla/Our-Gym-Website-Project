@@ -27,3 +27,6 @@ Feel free to explore the website, and we look forward to welcoming you to our fi
 ## Website URL
 
 You can visit our gym's webpage live at https://ourgym123.netlify.app/
+<br>
+https://gouravgodla.github.io/Our-Gym-Website-Project/
+
